@@ -1,6 +1,6 @@
 import { Avatar, Box, Stack, VStack, Text } from "@chakra-ui/react";
 import React from "react";
-
+import Image from '../assets/img4.jpg'
 const Footer = () => {
   return (
     <Box
@@ -18,13 +18,13 @@ const Footer = () => {
             letterSpacing={"widest"}
             textAlign={["center", "left"]}
           >
-            Our founder is Mr. Bhavya Anand who is a very proficient front end
+            Our founder is Mr. Ashish Kandari who is a very proficient front end
             developer. XD
           </Text>
         </VStack>
         <VStack>
           <Avatar boxSize={"28"} mt={["4", "0"]}></Avatar>
-          <Text>Bhavya Anand</Text>
+          <Text>Ashish Kandari</Text>
         </VStack>
       </Stack>
     </Box>
